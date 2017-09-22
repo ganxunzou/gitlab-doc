@@ -36,6 +36,7 @@ linux:
 ```
 
 1. 获取gitbook-cli库
-2. 
+2. f
+
 
 
