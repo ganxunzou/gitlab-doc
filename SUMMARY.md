@@ -1,6 +1,6 @@
 # Summary
 
-* [gitlab-doc](README.md)
+* [gitlab 详细教程](README.md)
 * [gitlab 安装](gitlab-an-zhuang.md)
 * [gitlab配置gitlab-runner](gitlabpei-zhi-gitlab-runner.md)
   * [gitlab-runner 安装](gitlabpei-zhi-gitlab-runner/gitlab-runner-an-zhuang.md)
