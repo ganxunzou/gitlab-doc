@@ -12,7 +12,5 @@ email_enabled:true
 
 ![](/assets/2017-09-15_135136.png)
 
-
-
-
+如果自己的服务器上没有email 服务器，又不想搭建 email 服务器，可以使用SMTP的方式。gitlab也支持SMTP的方式配置。
 
