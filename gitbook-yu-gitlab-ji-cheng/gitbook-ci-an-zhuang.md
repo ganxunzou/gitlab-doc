@@ -20,10 +20,10 @@ npm i -g gitbook-ci
 
 * 离线全局（-g）安装`gitbook-cli` 库  
 
-先从已经在线安装过gitbook-cli的机子上找到gitbook-cli
+离线安装gitbook-cli需要知道当前系统的node安装前置路径。先通过：`npm config ls -l` 查看去全量的npm配置文件，找到`prefix` 。  
 
-* `window` : 
-* `CentOS7` :
 
-离线安装gitbook-cli需要知道当前系统的node安装前置路径。先通过：`npm config ls -l` 查看去全量的npm配置文件，找到`prefix` ，然后将gitbook-cli库
+
+
+
 
