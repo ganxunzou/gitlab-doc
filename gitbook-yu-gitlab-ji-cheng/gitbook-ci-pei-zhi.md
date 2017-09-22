@@ -30,5 +30,9 @@ ReleaseBook:
     echo $gitlabPublic/$bookname
     gitbook build ./ $gitlabPublic/$bookname
 
-#### nginx location 调整支持访问文件夹
+#### nginx location 自动访问目录下的index.html
+
+![](/assets/gitbook-ci-doc.png)
+
+
 
