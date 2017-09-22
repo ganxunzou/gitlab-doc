@@ -32,7 +32,7 @@ ReleaseBook:
 
 #### nginx location 自动访问目录下的index.html
 
-如上图：gitbook build 生成readme页的网址是：http://127.0.0.1/doc/testDoc/，而不是http://127.0.0.1/doc/testDoc/index.html。对于这种问题有两种处理方式： 修改gitbook npm库相关源码加上index.html ，或者 让nginx支持访问目录的时候自动访问目录下的index.html文件。当然选择后者。
+如上图：gitbook build 生成readme页的网址是：[http://127.0.0.1/doc/testDoc/，而不是http://127.0.0.1/doc/testDoc/index.html。对于这种问题有两种处理方式：](http://127.0.0.1/doc/testDoc/，而不是http://127.0.0.1/doc/testDoc/index.html。对于这种问题有两种处理方式：) 修改gitbook npm库相关源码加上index.html ，或者 让nginx支持访问目录的时候自动访问目录下的index.html文件。当然选择后者。
 
 修改：`/var/opt/gitlab/nginx/conf/gitlab-http.conf` 增加如下配置
 
@@ -43,5 +43,5 @@ ReleaseBook:
  }
 ```
 
-然后重启：\`gitlab-ctl restart\`
+然后重启：`gitlab-ctl restart`
 
