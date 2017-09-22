@@ -47,3 +47,9 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 
 ![](/assets/gitlab-runner-share-specific.png)
 
+#### 使用gitlab-ci
+
+在项目根目录配置`.gitlab-ci.yml` ，因为我选择的shell模式，所以我可以在`gitlab-ci.yml` 中写shell命令
+
+
+
