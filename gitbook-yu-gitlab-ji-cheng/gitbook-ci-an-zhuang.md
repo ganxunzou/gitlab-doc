@@ -28,12 +28,14 @@ npm i -g gitbook-ci
 #注意用户目录
 window:
    C:\Users\Administrator\AppData\Roaming\npm\node_modules
-   
-   
+
+
 # 我的prefix = "/usr"
 linux:
    /usr/lib/node_modules
 ```
+
+1. 获取gitbook-cli库
 
 
 
