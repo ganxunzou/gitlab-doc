@@ -51,5 +51,36 @@ linux:
   2. 创建快捷方式： ln -s /usr/lib/node_modules/gitbook-cli/bin/gitbook.js /usr/bin/gitbook
 ```
 
+以上gitbook-cli就算安装结束了，在命令行中执行`gitbook` 命令，有以下输出就算完成了。
+
+```
+-bash-4.2# gitbook
+CONFIG_ROOT/root
+
+  Usage: gitbook [options] [command]
+
+
+  Options:
+
+    -v, --gitbook [version]  specify GitBook version to use
+    -d, --debug              enable verbose error
+    -V, --version            Display running versions of gitbook and gitbook-cli
+    -h, --help               output usage information
+
+
+  Commands:
+
+    ls                        List versions installed locally
+    current                   Display currently activated version
+    ls-remote                 List remote versions available for install
+    fetch [version]           Download and install a <version>
+    alias [folder] [version]  Set an alias named <version> pointing to <folder>
+    uninstall [version]       Uninstall a version
+    update [tag]              Update to the latest version of GitBook
+    help                      List commands for GitBook
+    *                         run a command with a specific gitbook version
+-bash-4.2# 
+```
+
 
 
