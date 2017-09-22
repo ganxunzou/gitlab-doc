@@ -9,13 +9,9 @@
 
 修改：`/etc/gitlab/gitlab.rb`
 
-
-
-
-
-aaa
-
-
+```
+external_url 'http://127.0.0.1'
+```
 
 
 
