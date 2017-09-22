@@ -1,4 +1,4 @@
-# gitlab-runner 安装
+# [gitlab-runner 配置](/gitlabpei-zhi-gitlab-runner/gitlab-runner-pei-zhi.md)gitlab-runner 安装
 
 #### 在线安装
 
@@ -16,7 +16,7 @@ curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/sc
 sudo yum install gitlab-runner
 ```
 
-* gitlab-runner 配置
-* 
+* [gitlab-runner 配置](/gitlabpei-zhi-gitlab-runner/gitlab-runner-pei-zhi.md)
+
 
 
