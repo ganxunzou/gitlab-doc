@@ -20,10 +20,20 @@ npm i -g gitbook-ci
 
 * 离线全局（-g）安装`gitbook-cli` 库  
 
-离线安装gitbook-cli需要知道当前系统的node安装前置路径。先通过：`npm config ls -l` 查看去全量的npm配置文件，找到`prefix` 。  
+离线安装gitbook-cli需要知道当前系统的node安装前置路径。先通过：`npm config ls -l` 查看去全量的npm配置文件，找到`prefix` ，我CentOS7的`prefix="/usr"` 。
 
+1. 获取gitbook-cli库
 
-
+```
+#注意用户目录
+window:
+   C:\Users\Administrator\AppData\Roaming\npm\node_modules
+   
+   
+# 我的prefix = "/usr"
+linux:
+   /usr/lib/node_modules
+```
 
 
 
