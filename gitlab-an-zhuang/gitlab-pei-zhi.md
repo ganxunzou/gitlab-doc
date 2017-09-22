@@ -5,5 +5,17 @@
 * gitlab-ctl 配置文件:\``/opt/gitlab/embedded/service/gitlab-rails/gitlab.yml`（这个文件是由gitlab-ctl管理的，如果要配置一些信息，可以修改/etc/gitlab/gitlab.rb），修改这个配置在执行`gitlab-ctl reconfigure` 将被还原。
 * gitlab 核心配置文件：`/etc/gitlab/gitlab.rb`
 
+#### 修改服务器url
+
+修改：`/etc/gitlab/gitlab.rb`
+
+
+
+
+
+aaa
+
+
+
 
 
