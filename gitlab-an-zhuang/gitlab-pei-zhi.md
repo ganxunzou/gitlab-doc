@@ -1,6 +1,6 @@
 # gitlab 相关配置
 
-#### gitlab 配置文件和目录
+#### gitlab 相关配置文件和目录
 
 * gitlab nginx 配置 目录：`/var/opt/gitlab/nginx/`
 * gitlab nginx 静态资源公共目录位置：`/opt/gitlab/embedded/service/gitlab-rails/public`
@@ -16,8 +16,6 @@ external_url 'http://127.0.0.1'
 ```
 
 * 执行`gitlab-ctl reconfigure` 生效配置文件
-
-
 
 #### gitlab-ctl 常用命令
 
