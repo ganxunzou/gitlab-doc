@@ -43,15 +43,7 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 
 #### 将share转成specific
 
+选择share的runner编辑选择对应的项目，点“Enable”按钮
 
-
-
-
-
-
-
-
-
-
-
+![](/assets/gitlab-runner-share-specific.png)
 
