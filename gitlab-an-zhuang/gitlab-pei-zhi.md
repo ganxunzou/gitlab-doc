@@ -22,5 +22,7 @@ external_url 'http://127.0.0.1'
 * `gitlab-ctl stop` ：关闭gitlab
 * `gitlab-ctl restart` ：重启gitlab
 
+#### [gitlab nginx 配置](/gitlab-an-zhuang/gitlab-pei-zhi/gitlab-nginx.md)
+
 
 
