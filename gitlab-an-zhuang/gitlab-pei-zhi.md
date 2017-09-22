@@ -7,11 +7,13 @@
 
 #### 修改服务器url
 
-修改：`/etc/gitlab/gitlab.rb`
+* 修改：`/etc/gitlab/gitlab.rb`
 
 ```
 external_url 'http://127.0.0.1'
 ```
+
+* 执行`gitlab-ctl reconfigure` 生效配置文件
 
 
 
