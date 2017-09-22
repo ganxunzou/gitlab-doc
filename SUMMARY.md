@@ -7,4 +7,5 @@
   * [gitlab-runner 注册](gitlabpei-zhi-gitlab-runner/gitlab-runner-pei-zhi.md)
 * [gitbook 与 gitlab集成](gitbook-yu-gitlab-ji-cheng.md)
   * [gitbook-cli 安装](gitbook-yu-gitlab-ji-cheng/gitbook-ci-an-zhuang.md)
+  * [gitbook CI 配置](gitbook-yu-gitlab-ji-cheng/gitbook-ci-pei-zhi.md)
 
