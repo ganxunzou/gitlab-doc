@@ -4,7 +4,23 @@ gitlab 所在服务器没有email服务，但是有共用的邮件服务器（eg
 
 * 开启SMTP配置
 
-修改配置文件:`/etc/gitlab/gitlab.rb` （官方的详细配置教程：https://docs.gitlab.com/omnibus/settings/smtp.html\#qq-exmail）
+修改配置文件:`/etc/gitlab/gitlab.rb` （官方的详细配置教程：[https://docs.gitlab.com/omnibus/settings/smtp.html\#qq-exmail](https://docs.gitlab.com/omnibus/settings/smtp.html#qq-exmail)）
+
+```
+gitlab_rails['smtp_enable'] = true
+gitlab_rails['smtp_address'] = "smtp.exmail.qq.com"
+gitlab_rails['smtp_port'] = 465
+gitlab_rails['smtp_user_name'] = "xxxx@xx.com"
+gitlab_rails['smtp_password'] = "password"
+gitlab_rails['smtp_authentication'] = "login"
+gitlab_rails['smtp_enable_starttls_auto'] = true
+gitlab_rails['smtp_tls'] = true
+gitlab_rails['gitlab_email_from'] = 'xxxx@xx.com'
+```
+
+这里需要注意 `gitlab_rails['smtp_tls']` 属性的配置。总结来说：如果 `gitlab_rails['smtp_port']` 端口是`465` 需要配置成：`gitlab_rails['smtp_tls']=true` ，如果是   
+
+这里有个坑，就是smtp\_tls的设置，如果smtp\_port是25的话，smtp\_tls=false;如果smtp\_port是465的话,smtp\_tls=true。
 
 
 
