@@ -49,7 +49,7 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 
 #### 使用gitlab-ci
 
-在项目根目录配置`.gitlab-ci.yml` ，因为我选择的shell模式，所以我可以在`gitlab-ci.yml` 中写shell命令。助注意语法，可以先验证一下：http://127.0.0.1/ci/lint （127.0.0.1是你服务器的ip）
+在项目根目录配置`.gitlab-ci.yml` ，因为我选择的shell模式，所以我可以在`gitlab-ci.yml` 中写shell命令。助注意语法，可以先验证一下：[http://127.0.0.1/ci/lint](http://127.0.0.1/ci/lint) （127.0.0.1是你服务器的ip）
 
 ```
 ReleaseBook:
