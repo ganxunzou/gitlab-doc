@@ -41,3 +41,17 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 
 ![](/assets/gitlab-runner-specific.png)
 
+#### 将share转成specific
+
+
+
+
+
+
+
+
+
+
+
+
+
