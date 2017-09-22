@@ -54,7 +54,12 @@ sudo gitlab-ctl reconfigure
 
 #### 离线安装
 
-[http://docs.gitlab.com/omnibus/manual\_install.html](http://docs.gitlab.com/omnibus/manual_install.html)，我们主要安装CE版本（社区版）[https://packages.gitlab.com/gitlab/gitlab-ce](https://packages.gitlab.com/gitlab/gitlab-ce)
+[http://docs.gitlab.com/omnibus/manual\_install.html](http://docs.gitlab.com/omnibus/manual_install.html)，我们主要安装CE版本（社区版）[https://packages.gitlab.com/gitlab/gitlab-ce](https://packages.gitlab.com/gitlab/gitlab-ce)。我安装的是9.5的版本：[https://packages.gitlab.com/gitlab/gitlab-ce/el/7/x86\_64/gitlab-ce-9.5.4-ce.0.el7.x86\_64.rpm](https://packages.gitlab.com/gitlab/gitlab-ce/el/7/x86_64/gitlab-ce-9.5.4-ce.0.el7.x86_64.rpm)  
+
+
+```
+rpm -i gitlab-ce-9.5.4-ce.0.el7.x86_64.rpm
+```
 
 
 
