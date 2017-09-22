@@ -31,7 +31,7 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 
 * `share` 所有配置了`.gitlab-ci.yml` 的项目都会被被执行
 
-* `specific` 只针对项目
+* `specific` 只针对指定项目有效
 
 #### 注册 share 的gitlab-runner
 
