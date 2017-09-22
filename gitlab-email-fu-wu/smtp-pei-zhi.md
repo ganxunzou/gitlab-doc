@@ -20,6 +20,10 @@ gitlab_rails['gitlab_email_from'] = 'xxxx@xx.com'
 
 这里需要注意 `gitlab_rails['smtp_tls']` 属性的配置。总结来说：如果 `gitlab_rails['smtp_port']` 端口是`465` 需要配置成：`gitlab_rails['smtp_tls']=true` ，如果端口是`25` 需要配置成： `gitlab_rails['smtp_tls']=false`
 
+* 生效配置文件
+
+执行：`gitlab-ctl reconfigure` 生效配置文件
+
 * 测试发送邮件
 
 [https://docs.gitlab.com/ce/administration/troubleshooting/debug.html](https://docs.gitlab.com/ce/administration/troubleshooting/debug.html)
