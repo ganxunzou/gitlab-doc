@@ -24,5 +24,10 @@ gitlab_rails['gitlab_email_from'] = 'xxxx@xx.com'
 
 [https://docs.gitlab.com/ce/administration/troubleshooting/debug.html](https://docs.gitlab.com/ce/administration/troubleshooting/debug.html)
 
+```
+# sudo gitlab-rails console production
+irb(main):003:0> Notify.test_email('youremail@email.com', 'Hello World', 'This is a test message').deliver_now
+```
+
 
 
