@@ -19,7 +19,7 @@ ReleaseBook:
 
 #### ReleaseBook.sh
 
-我发布文档的规则：/doc/ProjectName
+我发布文档的规则：http://127.0.0.1/doc/ProjectName/index.html ,其中ProjectName是当前项目名。例如，我的文档资源库：git@127.0.0.1:root/testDoc.git ，生成的文档网址：http://127.0.0.1/doc/testDoc/index.html
 
     p=`pwd`
     echo $p
