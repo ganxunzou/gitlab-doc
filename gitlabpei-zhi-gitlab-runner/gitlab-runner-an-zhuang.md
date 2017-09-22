@@ -18,9 +18,13 @@ sudo yum install gitlab-runner
 
 * [gitlab-runner 配置](/gitlabpei-zhi-gitlab-runner/gitlab-runner-pei-zhi.md)
 
-
-
 #### 离线安装
 
+[https://packages.gitlab.com/runner/gitlab-runner](https://packages.gitlab.com/runner/gitlab-runner) 下载gitlab-ci-multi-runner-9.5.0-1.x86\_64.rpm，然后拷贝到服务器手动执行
 
+```
+rpm -i gitlab-ci-multi-runner-9.5.0-1.x86_64.rpm
+```
+
+[gitlab-runner 配置](#)
 
