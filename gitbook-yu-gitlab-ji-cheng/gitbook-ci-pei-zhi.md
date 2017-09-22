@@ -7,5 +7,26 @@ gitlab + gitbook 实现持续集成和发布（website）分工如下：
 
 * `.gitlab-ci.yml`  脚本中使用gitbook build 构建书本并输出到nginx 的 public目录
 
-gitbook + gitlab 实现CI配置依赖gitlab-runner。gitlab-runner的安装和注册详见：[gitlab-ci 持续集成配置](/gitlabpei-zhi-gitlab-runner.md)
+gitbook + gitlab 实现CI配置依赖gitlab-runner。gitlab-runner的安装和注册详见：[gitlab-ci 持续集成配置](/gitlabpei-zhi-gitlab-runner.md)。
+
+#### .gitlab-ci.yml 
+
+```
+ReleaseBook:
+ script:
+  - sh ~/ReleaBook.sh
+```
+
+#### ReleaseBook.sh
+
+    p=`pwd`
+    echo $p
+    bookname="${PWD##*/}"
+    echo $bookname
+    gitlabPublic="/opt/gitlab/embedded/service/gitlab-rails/public/doc"
+    test -d $gitlabPublic && echo $gitlabPublic 'exist' || mkdir $gitlabPublic
+    echo $gitlabPublic/$bookname
+    gitbook build ./ $gitlabPublic/$bookname
+
+
 
