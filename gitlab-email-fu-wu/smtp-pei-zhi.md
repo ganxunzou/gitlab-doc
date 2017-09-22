@@ -2,3 +2,9 @@
 
 gitlab 所在服务器没有email服务，但是有共用的邮件服务器（eg: [http://mail.qq.com](http://mail.qq.com)），想使用公共的邮件服务器代理邮件的发送和接受，这时候就可以用gitlab 提供的SMTP服务。
 
+* 开启SMTP配置
+
+修改配置文件:`/etc/gitlab/gitlab.rb` （官方的详细配置教程：https://docs.gitlab.com/omnibus/settings/smtp.html\#qq-exmail）
+
+
+
