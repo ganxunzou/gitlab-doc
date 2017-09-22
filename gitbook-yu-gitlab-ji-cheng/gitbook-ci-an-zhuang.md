@@ -27,16 +27,28 @@ npm i -g gitbook-ci
 ```
 #注意用户目录
 window:
-   C:\Users\Administrator\AppData\Roaming\npm\node_modules
+   C:\Users\Administrator\AppData\Roaming\npm\node_modules\gitbook-cli
 
 
 # 我的prefix = "/usr"
 linux:
-   /usr/lib/node_modules
+   /usr/lib/node_modules/gitbook-cli
 ```
 
-1. 获取gitbook-cli库
-2. f
+1. 离线安装gitbook-cli
+
+拷贝gitbook-cli的离线资源，解压到相对的目录。
+
+```
+#注意用户目录，（特别注意记得拷贝上层目录的gitbook-cli.cmd文件）
+window:
+   C:\Users\Administrator\AppData\Roaming\npm\node_modules\gitbook-cli
+
+
+# 我的prefix = "/usr"
+linux:
+   /usr/lib/node_modules/gitbook-cli
+```
 
 
 
