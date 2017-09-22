@@ -10,6 +10,7 @@
 * [gitbook 与 gitlab集成](gitbook-yu-gitlab-ji-cheng.md)
   * [gitbook-cli 安装](gitbook-yu-gitlab-ji-cheng/gitbook-ci-an-zhuang.md)
   * [gitbook CI 配置](gitbook-yu-gitlab-ji-cheng/gitbook-ci-pei-zhi.md)
+  * [Q&A](gitbook-yu-gitlab-ji-cheng/qanda.md)
 * [gitlab email 服务](gitlab-email-fu-wu.md)
   * [SMTP 配置](gitlab-email-fu-wu/smtp-pei-zhi.md)
 
