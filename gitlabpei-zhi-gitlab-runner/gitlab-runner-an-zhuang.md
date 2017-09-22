@@ -28,3 +28,11 @@ rpm -i gitlab-ci-multi-runner-9.5.0-1.x86_64.rpm
 
 [gitlab-runner 配置](#)
 
+
+
+#### 其他知识点
+
+gitlab-runner安装成功后，会自动创建一个gitlab-runner用户，gitlab-ci的执行的用户目录·`~` 都指向/home/gitlab-runner
+
+
+
