@@ -14,3 +14,20 @@ email_enabled:true
 
 如果自己的服务器上没有email 服务器，又不想搭建 email 服务器，可以使用SMTP的方式。详见：[SMTP配置](/gitlab-email-fu-wu/smtp-pei-zhi.md)
 
+
+
+#### 邮件信息配置
+
+修改：`/etc/gitlab/gitlab.rb` 文件
+
+```
+### Email Settings
+gitlab_rails['gitlab_email_enabled'] = true
+gitlab_rails['gitlab_email_from'] = 'xunzou.gan@conivision.com'
+gitlab_rails['gitlab_email_display_name'] = 'ganxunzou'
+gitlab_rails['gitlab_email_reply_to'] = 'ganxunzou'
+# gitlab_rails['gitlab_email_subject_suffix'] = ''
+```
+
+
+
