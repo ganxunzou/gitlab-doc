@@ -50,7 +50,11 @@ sudo gitlab-ctl reconfigure
 
 在浏览器中输入服务器IP或者域名，gitlab默认使用的nginx做静态资源服务器和反向代理服务器。nginx默认监听的是80端口。因此直接访问ip或者域名会到登陆界面。
 
+---
 
+#### 离线安装
+
+[http://docs.gitlab.com/omnibus/manual\_install.html](http://docs.gitlab.com/omnibus/manual_install.html)，我们主要安装CE版本（社区版）[https://packages.gitlab.com/gitlab/gitlab-ce](https://packages.gitlab.com/gitlab/gitlab-ce)
 
 
 
