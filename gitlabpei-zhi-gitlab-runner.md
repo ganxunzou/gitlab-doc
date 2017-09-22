@@ -1,4 +1,4 @@
-# gitlab配置gitlab-runner
+# gitlab-ci 配置gitlab-runner
 
 gitlab是Go中官方GitLab Runner的存储库。它运行测试并将结果发送给GitLab。 GitLab CI是GitLab包含的开源持续集成服务，用于协调测试。该项目的旧名称是GitLab CI Multi Runner，但请从现在开始使用“GitLab Runner”（内部不在集成CI，CI由gitlab-ci提供服务）。
 
