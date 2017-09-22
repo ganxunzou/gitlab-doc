@@ -20,3 +20,7 @@ sudo yum install gitlab-runner
 
 
 
+#### 离线安装
+
+
+
