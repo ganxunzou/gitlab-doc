@@ -6,7 +6,7 @@
 
 * gitlab nginx 静态资源公共目录位置：`/opt/gitlab/embedded/service/gitlab-rails/public`
 
-* gitlab nginx log目录：`/var/opt/gitlab/nginx/log`
+* gitlab nginx log目录：`/var/opt/gitlab/nginx/logs`
 
 #### 修改nginx配置并生效
 
