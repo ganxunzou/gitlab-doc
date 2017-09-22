@@ -14,8 +14,6 @@ npm i -g gitbook-ci
 
 `gitbook-cli` 构建书本需要依赖`gitbook` 库。可以在任意目录中创建一本书：含README.md的文件夹，执行`gitbook build` 命令进行构建会自动下载`gitbook` 库，默认情况下，gitbook下载后保存本地的路径是：`~/.gitbook`
 
-
-
 #### 离线安装
 
 离线安装需要先准备好资源，可以找一台可以联网的机子执行一遍：在线安装，然后拷贝资源。离线安装有很多知识点的整合需要详细看以下步骤。
@@ -83,6 +81,10 @@ CONFIG_ROOT/root
     *                         run a command with a specific gitbook version
 -bash-4.2#
 ```
+
+* 离线安装gitbook库
+
+离线安装gitbook比较简单，拷贝已经在线安装过的`~/.gitbook` 整个目录到需要离线安装的用户`~/.gitbook` 即可。这里特别注意一下gitlab-runner对应的用户目录`~` 是 `/home/gitlab-runner`
 
 
 
