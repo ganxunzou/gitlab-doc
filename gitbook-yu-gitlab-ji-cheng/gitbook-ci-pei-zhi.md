@@ -9,7 +9,7 @@ gitlab + gitbook 实现持续集成和发布（website）分工如下：
 
 gitbook + gitlab 实现CI配置依赖gitlab-runner。gitlab-runner的安装和注册详见：[gitlab-ci 持续集成配置](/gitlabpei-zhi-gitlab-runner.md)。
 
-#### .gitlab-ci.yml 
+#### .gitlab-ci.yml
 
 ```
 ReleaseBook:
@@ -18,6 +18,8 @@ ReleaseBook:
 ```
 
 #### ReleaseBook.sh
+
+我发布文档的规则：/doc/ProjectName
 
     p=`pwd`
     echo $p
@@ -28,5 +30,5 @@ ReleaseBook:
     echo $gitlabPublic/$bookname
     gitbook build ./ $gitlabPublic/$bookname
 
-
+nginx location 调整支持访问文件夹
 
