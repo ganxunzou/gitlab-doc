@@ -47,7 +47,8 @@ window:
 
 # 我的prefix = "/usr"
 linux:
-   /usr/lib/node_modules/gitbook-cli
+  1. 拷贝资源到： /usr/lib/node_modules/gitbook-cli
+  2. 创建快捷方式： ln -s /usr/lib/node_modules/gitbook-cli/bin/gitbook.js /usr/bin/gitbook
 ```
 
 
