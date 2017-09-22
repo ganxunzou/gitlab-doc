@@ -27,6 +27,12 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 
 以上是注册gitlab-runner的过程，特别注意最后异步，我选择的是shell，因为我想通过sh脚本处理任务。gitlab-runner支持`share`和 `specific` 两种模式，可以将`share` 改成`specific` ，但是不能将`specific` 改成 `share` 。可以在注册的时候直接注册 `share` 或`specific` 类型的gitlab-runner，取决于注册时输入的`gitlab-ci token`;
 
+两种模式：
+
+* `share` 所有配置了`.gitlab-ci.yml` 的项目都会被被执行
+
+* `specific` 只针对项目
+
 #### 注册 share 的gitlab-runner
 
 注册共享的gitlab-runner使用的token是全局的token，通过Admin Area -&gt; Overview -&gt; Runners 可以获取。![](/assets/gitlab-runner-share2.png)
@@ -34,6 +40,4 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 #### 注册 specific 的gitlab-runner
 
 ![](/assets/gitlab-runner-specific.png)
-
-
 
