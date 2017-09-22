@@ -18,9 +18,7 @@ gitlab_rails['smtp_tls'] = true
 gitlab_rails['gitlab_email_from'] = 'xxxx@xx.com'
 ```
 
-这里需要注意 `gitlab_rails['smtp_tls']` 属性的配置。总结来说：如果 `gitlab_rails['smtp_port']` 端口是`465` 需要配置成：`gitlab_rails['smtp_tls']=true` ，如果是   
-
-这里有个坑，就是smtp\_tls的设置，如果smtp\_port是25的话，smtp\_tls=false;如果smtp\_port是465的话,smtp\_tls=true。
+这里需要注意 `gitlab_rails['smtp_tls']` 属性的配置。总结来说：如果 `gitlab_rails['smtp_port']` 端口是`465` 需要配置成：`gitlab_rails['smtp_tls']=true` ，如果端口是`25` 需要配置成： `gitlab_rails['smtp_tls']=false`
 
 
 
