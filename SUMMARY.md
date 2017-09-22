@@ -2,7 +2,7 @@
 
 * [gitlab 详细教程](README.md)
 * [gitlab 安装](gitlab-an-zhuang.md)
-  * [gitlab 配置](gitlab-an-zhuang/gitlab-pei-zhi.md)
+* [gitlab 相关配置](gitlab-an-zhuang/gitlab-pei-zhi.md)
 * [gitlab-ci 持续集成配置](gitlabpei-zhi-gitlab-runner.md)
   * [gitlab-runner 安装](gitlabpei-zhi-gitlab-runner/gitlab-runner-an-zhuang.md)
   * [gitlab-runner 注册](gitlabpei-zhi-gitlab-runner/gitlab-runner-pei-zhi.md)
